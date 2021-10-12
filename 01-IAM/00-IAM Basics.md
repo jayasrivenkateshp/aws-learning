@@ -1,4 +1,4 @@
-### IAM Identity Access Management
+# IAM Identity Access Management
 
 1. IAM ia a **globally resilient service**
    - No cost for IAM 
@@ -17,8 +17,9 @@
 
 ## IAM allows you to create Three different types of objects
 
----
-IAM Users: "Identities which represent humans or applications that need access to your account"
-IAM Groups: Collection of related users EX: development team,finance team,HR team
-IAM Roles: "Can be used by services,or granting external access to your account"
---- 
+
+| IAM Users | IAM Groups | IAM Roles
+| -------- | ---------- | ---------- |
+| Identities which represent humans or applications that need access to your account | Collection of related users EX: development team,finance team,HR team | Can be used by services,or granting external access to your account |
+
+
