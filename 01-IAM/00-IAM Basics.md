@@ -19,6 +19,6 @@
 
 ---
 IAM Users: "Identities which represent humans or applications that need access to your account"
-IAM Groups: "Collection of related users EX: development team,finance team,HR team"
+IAM Groups: Collection of related users EX: development team,finance team,HR team
 IAM Roles: "Can be used by services,or granting external access to your account"
 --- 
