@@ -1,4 +1,4 @@
-## S3 Security 
+# S3 Security 
 
 > At creation and by default, all S3 resources are private and can only be accessed by the resource owner or account administrator. 
 

@@ -1,6 +1,6 @@
-##  S3 Storage classes
+#  S3 Storage classes
 
-# SSD-Solid State Drives
+## SSD-Solid State Drives
 
 1. **S3 standard (Input & output)**- 
     > cost per GB is higher

@@ -1,4 +1,4 @@
-## ARN (AMAZON Resource Name)
+# ARN (AMAZON Resource Name)
 
 * Amazon Resource Names (ARNs) are uniques identifiers assigned to individual AWS resources.
 
@@ -8,13 +8,14 @@
 
 most cases, you can build the ARN URL yourself following the below format.
 
----
-**arn:aws:service:region:account-id:resource-id**
-**arn:aws:service:region:account-id:resource-type/resource-id**
-**arn:aws:service:region:account-id:resource-type:resource-id**
-**In the above formats, towards the end, you can see the difference in the formats which changes as per the resource types**
----
+```
+arn:aws:service:region:account-id:resource-id
+arn:aws:service:region:account-id:resource-type/resource-id
+arn:aws:service:region:account-id:resource-type:resource-id 
+```
 
+**In the above formats, towards the end, you can see the difference in the formats which changes as per the resource types**
+-------------------------------------
 **S3 ARN Example**:
        S3 has a flat hierarchy of buckets and associated objects. Here is how an s3 arn would look like
 

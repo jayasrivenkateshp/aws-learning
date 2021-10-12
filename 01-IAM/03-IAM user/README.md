@@ -1,4 +1,4 @@
-### IAM USER
+# IAM USER
 
 **Identities which represent humans or applications that need access to your account**
 

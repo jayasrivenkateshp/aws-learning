@@ -1,8 +1,8 @@
-### S3 Encryption
+# S3 Encryption
 
 ## Encryption approches:
 
-# Encryption at rest:
+## Encryption at rest:
 
 > Encryption at rest is designed to prevent the attacker from accessing the unencrypted data by ensuring the data is encrypted when on disk.
 
@@ -12,7 +12,7 @@
 
 >For this reason, encryption at rest is highly recommended and is a high priority requirement for many organizations
 
-# encryption in transit:
+## encryption in transit:
 
 > protects your data if communications are intercepted while data moves between your site and the cloud provider or between two services.
 
@@ -20,18 +20,13 @@
 
 >For example, Transport Layer Security (TLS) is often used to encrypt data in transit for transport security, and Secure/Multipurpose Internet Mail Extensions (S/MIME) is used often for email message security.
 
-# Concepts:
+## Concepts:
 
-  `Plain text`-unencrypted data load intlo application and use
+| Plain text | Algorithm | key | Ciphertext |
+| ---------- | --------- | --- | ----------|
+| unencrypted data load intlo application and use | Algorithm piece of maths,encrypted data | key credentials(keys) | NO text data, encrypted data Encryption uses these plain text,algorithm,key to make ciphertext |
 
-  `Algorithm`-piece of maths,encrypted data
-
-  `key`- credentials(keys)
-
-  `Ciphertext`: NO text data, encrypted data
-            - Encryption uses these plain text,algorithm,key to make ciphertext.
-
-# Symmetric encryption
+## Symmetric encryption
 
 >This is said to be the simplest and best-known encryption technique. As discussed already, it uses one key for both encryption and decryption.
 
@@ -43,7 +38,7 @@
 
 > Widely used symmetric encryption algorithms include AES-128, AES-192, and AES-256.
 
-# Asymmetric encryption
+## Asymmetric encryption
 
 > This type of encryption is relatively new as compared to symmetric encryption, and is also referred to as public-key cryptography.
 
@@ -62,7 +57,7 @@
 
 > Common asymmetric encryption techniques include RSA, DSA, and PKCS.
 
-# S3 encryption:
+## S3 encryption:
 
 Amazon S3 supports both server-side encryption (with three key management options: SSE-KMS, SSE-C, SSE-S3)
                                            and

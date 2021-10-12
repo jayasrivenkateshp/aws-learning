@@ -1,8 +1,8 @@
-### Multi Factor authentication
+# Multi Factor authentication
 
 **MFA ia implemented within AWS**
 
-# Why MFA is needed ?
+## Why MFA is needed ?
 
  * The way that you usually log in to any web-based applications, Generally you use usernames and passwords.
  * If both of this is leaked any one can be you, anyone can take your username and password and use them to      
@@ -13,7 +13,7 @@
  * Factors are pieces of evidnce which prove identity, and there are identified types of factors
  * so, when you hear the term **Single Factor Authentication**. It means one of these factors
 
-## Multi-factor Authentication
+# Multi-factor Authentication
 
 → It is when you use Multiple factors or multiple types of factory to log in to an application.
 
@@ -35,12 +35,12 @@
 
 This meany more factors that your authentication process cused this means more Security.. It also means that it's harder to fake your
 
-## MFA in Aws Account -
+# MFA in Aws Account -
 
 → By default you Log into this with a username and password
 → This is **single factor or one factor authentication**
 
-## We can improve this using MFA:
+# We can improve this using MFA:
 
   **MFA can be activated using physical MFA dovice**
 

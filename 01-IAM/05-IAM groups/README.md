@@ -1,4 +1,4 @@
-### IAM GROUPS
+# IAM GROUPS
 
 Collection of related users 
      EX: development team,finance team,HR team"

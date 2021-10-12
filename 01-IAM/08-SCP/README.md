@@ -1,4 +1,4 @@
-### SCP (Service Control Policies)
+# SCP (Service Control Policies)
 
 * SCP are account permissions bounderies
 

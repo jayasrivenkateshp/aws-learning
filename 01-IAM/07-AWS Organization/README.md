@@ -1,4 +1,4 @@
-## AWS Organization
+# AWS Organization
 
 * AWS Organizations is an AWS account management service that lets users centrally manage and control groups of AWS accounts, and the workflows and policies that apply to them.
 

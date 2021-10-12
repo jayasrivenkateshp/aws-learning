@@ -1,4 +1,4 @@
-### IAM POLICY
+# IAM POLICY
 
 - IAM lets you create these policies which are essentially objects or documents, 
 - which can be used to **Allow or Deny** Access to AWS services
@@ -34,7 +34,7 @@
 
 - It can be very specific and lists specific individual action.
 
-# IAM policies :
+## IAM policies :
 
    * Inline policies 
    * Managed policies
