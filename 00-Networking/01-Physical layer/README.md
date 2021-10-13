@@ -12,7 +12,7 @@
 
 * no device => device communication
 
-## there are two cases how a physical layer works ?
+## there are two cases how a physical layer works 
 
 ### case 1 :-
 
