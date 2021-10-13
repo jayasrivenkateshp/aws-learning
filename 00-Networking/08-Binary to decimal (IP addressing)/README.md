@@ -14,6 +14,7 @@
 * here is a table to get values
 
 | position | Binary position value | Binary value
+| -------- | ---------- | -------- |
 | 1 | 128 |
 | 2 | 64 |
 | 3 | 32 |
