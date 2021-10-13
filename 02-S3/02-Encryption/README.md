@@ -50,12 +50,6 @@
 
 > This encryption method is used in everyday communication over the internet.
 
-> When a message is encrypted using a public key, it can only be decrypted using a private key.
-
-> when a message is encrypted using a private key, it can be decrypted using a public key.
-
-> Digital certificates in the client-server model can be used to discover public keys.
-
 > The drawback of this encryption is that it takes more time than the symmetric encryption process.
 
 > Common asymmetric encryption techniques include RSA, DSA, and PKCS.
