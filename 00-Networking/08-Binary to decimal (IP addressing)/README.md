@@ -52,22 +52,22 @@
 ## Rules :-
 
 * `177' larger/equal than 128 (rule#2)
-* 177-128=49 (new decimal number)
-* add `1` in binary position
+> 177-128=49 (new decimal number)
+> add `1` in binary position
 
 * `47` is smaller than 64
-* add `0` and move on (rule#1)
+> add `0` and move on (rule#1)
 
 * `47` is greater than 32 (rule#2)
-* 47-32=17 (new decimal number)
-* add `1` in binary position
+> 47-32=17 (new decimal number)
+> add `1` in binary position
 
 * `17` is greater than 16
-* 17-16=1 (new decimal number)
-* add `1` in binary position
+> 17-16=1 (new decimal number)
+> add `1` in binary position
 
 * `1` is smaller than 6,4,2
-=> add `0` and move on (rule#1)
+> add `0` and move on (rule#1)
 
 * `1` is larger/equal than 1 (rule#2)
-=> add `0` and move on
+> add `0` and move on
