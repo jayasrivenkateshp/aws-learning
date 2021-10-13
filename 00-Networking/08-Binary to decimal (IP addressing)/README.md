@@ -36,20 +36,20 @@
 
 ## Example decimal to binary
 
-**change binary to decimal 177.77.77.7**
+**change decimal to binary 177.77.77.7**
 
-| position | Binary position value | Binary value
-| -------- | ---------- | -------- |
-| 1 | 128 | 1
-| 2 | 64 | 0
-| 3 | 32 | 1
-| 4 | 16 | 1
-| 5 | 8 | 0
-| 6 | 4 | 0
-| 7 | 2 | 0
-| 8 | 1 | 1
+| position | Binary position value | Binary value 177 | Binary value 77 | Binary value 7
+| -------- | ---------- | -------- | --------- | -------- 
+| 1 | 128 | 1 | o | 0
+| 2 | 64 | 0 | 1 | 0
+| 3 | 32 | 1 | 0 | 0
+| 4 | 16 | 1 | 0 | 0
+| 5 | 8 | 0 | 1 | 0
+| 6 | 4 | 0 | 1 | 1
+| 7 | 2 | 0 | 0 | 1
+| 8 | 1 | 1 | 1 | 1
 
-## Rules :-
+## Rules :- follow the same rules for each set
 
 * `177' larger/equal than 128 (rule#2)
 > 177-128=49 (new decimal number)
@@ -74,3 +74,36 @@
 
 * `1` is larger/equal than 1 (rule#2)
 > add `0` and move on
+
+**answer is 177.77.77.7 = 10110001.01001101.01001101.00000111**
+
+
+## Binary to decimal
+
+**change binary to decimal 10110001.01001101.01001101.00000111**
+
+| position | Binary position value | Binary value 177 | Binary value 77 | Binary value 7
+| -------- | ---------- | -------- | --------- | -------- 
+| 1 | 128 | 1 | o | 0
+| 2 | 64 | 0 | 1 | 0
+| 3 | 32 | 1 | 0 | 0
+| 4 | 16 | 1 | 0 | 0
+| 5 | 8 | 0 | 1 | 0
+| 6 | 4 | 0 | 1 | 1
+| 7 | 2 | 0 | 0 | 1
+| 8 | 1 | 1 | 1 | 1
+
+### Rules
+
+* work from left to right - do each "octect" one by one
+
+* `1` here so we add the decimal value
+
+* `0` here so we add 0
+
+**each binary position has a decimal value.if bits is `1` add that value,if `0` add 0**
+
+* 10110001 = 128+0+32+16+0+0+0+1 = 177
+* 01001101 = 0+64+0+0+8+4+0+1=77
+* 01001101 = 0+64+0+0+8+4+0+1=77
+* 00000111 = 0+0+0+0+0+4+2+1=7
