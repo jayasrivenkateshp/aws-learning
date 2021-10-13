@@ -1,10 +1,10 @@
 # S3 Security 
 
-> At creation and by default, all S3 resources are private and can only be accessed by the resource owner or account administrator. 
+> At creation by default, all S3 resources are private and can only be accessed by the resource owner or account administrator. 
 
-> This security design lets you configure finely-tuned access policies that align to organizational, governance, security, and compliance requirements. 
+> you need to disable it manually 
 
-> You can use S3 Block Public Access to restrict all access requests to your data. S3 also lets you chose among different encryption options
+> You can use S3 Block Public Access to restrict all access requests to your data.
 
 >  A form of resource policy
 
@@ -31,5 +31,5 @@
 
 > if we want to disable this we need to manually disable it 
 
-> so that objects can be public  of our choice
+> so that objects can be public by our choice
 

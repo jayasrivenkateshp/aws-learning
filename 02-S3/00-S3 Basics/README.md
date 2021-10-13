@@ -10,26 +10,26 @@ anywhere. where on the web.
 
 ## what kind of data can be stored in S3
 
-> Application data
+=) Application data
 
 - Net. Html, Java, Python, Rubby, Database Lackey's C# etc..
 
-> Marrige photos, pics 
+=) Marriage photos, pics 
 
-> Movie 
+=) Movie 
 
-> Ms office (ppt, excel, word )
+=) Ms office (ppt, excel, word )
 
-> MPV4 & Audia files/ video files
+=) MPV4 & Audio files/ video files
 
 ## Charges for S3
 
 
 ⇒ upto 5 GB for 1 Aws cloud is a free of cost.
 
-* S3 bucket availability is Global wise
+=) S3 bucket availability is Global wise
 
-* Bucket you can create in specific region
+=) Bucket you can create in specific region
 
 =) it gives open cloud based storage service which is utilized for online data backup
 

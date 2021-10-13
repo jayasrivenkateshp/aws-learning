@@ -28,6 +28,7 @@
 - every interaction that you have with Aws is a Combination of two main things
 
 - the resource that you're interacting with, 
+
 - and the actions that you're attempting to perform, on that resource
 
       Ex: - you are attempting to perform with an S3 bucket and the action you might be attempting to perform, in add an object into the bucket

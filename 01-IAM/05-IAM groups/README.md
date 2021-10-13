@@ -8,9 +8,11 @@ Collection of related users
 
 * Group specifies the permission for a collection of users, and it also makes it possible to manage the permissions easily for those users.
 
-* You created a group known as Admin and assigned the permissions to the group that administrators typically need.
+* You created a group known as Admin and assigned the permissions to the group that administrators need.
 
-* Any user joins the admin group; then the user will have all the permissions that are assigned to the group.
+* Any user joins the admin group;
+
+* then the user will have all the permissions that are assigned to the group.
 
 * If a new user joins the organization, then he should have administrator privileges, and you can assign the appropriate permissions by adding him to the group.
   

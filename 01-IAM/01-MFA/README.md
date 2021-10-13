@@ -5,6 +5,7 @@
 ## Why MFA is needed ?
 
  * The way that you usually log in to any web-based applications, Generally you use usernames and passwords.
+
  * If both of this is leaked any one can be you, anyone can take your username and password and use them to log into an application and impersonate as you as an identity
 
 ## Multi-factor Authentication
@@ -13,7 +14,8 @@
 
 ### Factor (or) factors
 
- * Factors are pieces of evidnce which prove identity, and there are identified types of factors
+ * Factors are pieces of evidnce which prove identity, and there are identified types of factors.
+ 
  * so, when you hear the term **Single Factor Authentication**. It means one of these factors
 
   There are four common factors that you use to Log in to **any web Application** 
@@ -25,7 +27,7 @@
     Inherent :- so this is Something you have, so a So a fingerprint, or an is gean face scan's 
                 voice identification
 
-    Location: This can be either physical location, 
+    Location:- This can be either physical location, 
                - that you currently Logged into accen a system either Logged into
                (corporate network) or home wifi network.
 

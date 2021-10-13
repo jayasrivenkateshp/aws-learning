@@ -12,3 +12,8 @@
 * S3 life cycle configuration has a file and it has some rules that are predifined to perform on objects during lifetime
 
 * so it can delete specified objects based on life cycle configuration
+
+* we dont need to do manually 
+
+* it will save us money for storage(low cost)
+

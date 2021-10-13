@@ -4,21 +4,23 @@
 
 ## Encryption at rest:
 
-> Encryption at rest is designed to prevent the attacker from accessing the unencrypted data by ensuring the data is encrypted when on disk.
+> Encryption at rest is to prevent the attacker from accessing the unencrypted data by ensuring the data is encrypted when on disk.
 
-> If an attacker obtains a hard drive with encrypted data but not the encryption keys, the attacker must defeat the encryption to read the data.
+> any physical tampering or laptop theft
 
-> This attack is much more complex and resource consuming than accessing unencrypted data on a hard drive. 
-
->For this reason, encryption at rest is highly recommended and is a high priority requirement for many organizations
+> with out passcode or keys attackers can`t do anything
 
 ## encryption in transit:
 
-> protects your data if communications are intercepted while data moves between your site and the cloud provider or between two services.
+> these service is used only when multiple individuals are involved
 
-> This protection is achieved by encrypting the data before transmission; authenticating the endpoints; and decrypting and verifying the data on arrival. 
+> protects your data if communications data moves between your site and the cloud provider or between two services.
 
->For example, Transport Layer Security (TLS) is often used to encrypt data in transit for transport security, and Secure/Multipurpose Internet Mail Extensions (S/MIME) is used often for email message security.
+> when the transfering is done in tunnel between two points
+
+> if one end is encrypted and the other will be decrypted
+
+> in the middle attackers can`t do anything
 
 ## Concepts:
 
@@ -28,9 +30,9 @@
 
 ## Symmetric encryption
 
->This is said to be the simplest and best-known encryption technique. As discussed already, it uses one key for both encryption and decryption.
+>This is simplest and best-known encryption technique. it uses one key for both encryption and decryption.
 
->Because the algorithm behind symmetric encryption is less complex and executes faster, this is the preferred technique when transmitting data in bulk.
+>Because the algorithm behind symmetric encryption is less complex and executes faster, this is atechnique when transmitting data in bulk.
 
 >The plaintext is encrypted using a key, and the same key is used at the receiving end to decrypt the received ciphertext.
 
@@ -40,16 +42,17 @@
 
 ## Asymmetric encryption
 
-> This type of encryption is relatively new as compared to symmetric encryption, and is also referred to as public-key cryptography.
+> This type of encryption is new as compared to symmetric encryption, and it is public-key cryptography.
 
 > Asymmetric encryption is considered to be more secure than symmetric encryption as it uses two keys for the process.
 
-> The public key used for encryption is available to everyone but the private key is not disclosed.
+> The public key used for encryption is available to everyone but the private key is not available.
+
 > This encryption method is used in everyday communication over the internet.
 
 > When a message is encrypted using a public key, it can only be decrypted using a private key.
 
-> However, when a message is encrypted using a private key, it can be decrypted using a public key.
+> when a message is encrypted using a private key, it can be decrypted using a public key.
 
 > Digital certificates in the client-server model can be used to discover public keys.
 
@@ -59,12 +62,12 @@
 
 ## S3 encryption:
 
-Amazon S3 supports both server-side encryption (with three key management options: SSE-KMS, SSE-C, SSE-S3)
+> Amazon S3 supports both server-side encryption (with three key management options: SSE-KMS, SSE-C, SSE-S3)
                                            and
   client-side encryption for data uploads.
 
- Amazon S3 offers flexible security features to block unauthorized users from accessing your data.
+> Amazon S3 offers flexible security features to block unauthorized users from accessing your data.
    
-    Use VPC endpoints to connect to S3 resources from your Amazon Virtual Private Cloud (Amazon VPC).
+   - Use VPC endpoints to connect to S3 resources from your Amazon Virtual Private Cloud (Amazon VPC).
     
-     Use S3 Inventory to check the encryption status of your S3 objects 
+   - Use S3 Inventory to check the encryption status of your S3 objects 
