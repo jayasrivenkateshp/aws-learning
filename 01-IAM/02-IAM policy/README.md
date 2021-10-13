@@ -44,13 +44,13 @@
    * Inline policies 
    * Managed policies
 
-Inline policies:
-    you are applying the JSON to each account individually, it become isolated bits of JSON 
+* Inline policies:
+    - you are applying the JSON to each account individually, it become isolated bits of JSON 
 
-Managed policies:
-    Managed policies are created as their own object
+* Managed policies:
+    - Managed policies are created as their own object
 
-- first you'd create the managed policy. JSON they can attach that policy to any identities 
+* first you'd create the managed policy. JSON they can attach that policy to any identities 
 
        * Reusable
        * Low Management overhead

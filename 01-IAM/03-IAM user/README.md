@@ -4,7 +4,7 @@
 
 IAM users are an Identity used for anything requiring long - term credentials for Aws access
 
- Eg: Humanys, Applications or Service Accounts
+ Eg: Humans, Applications or Service Accounts
 
 ⇒ if you need to give something access to your -Aws Account, you can picture one thing,
     IAM user
