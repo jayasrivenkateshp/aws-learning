@@ -8,6 +8,7 @@
 
 **7 OSI LAYER Model**
 
+| type | number | layer | stack |
 | ----- | ----- | ----- | ------ |                    |
 | Host layer | 7 | Application layer |                |
              | 6 | Presentation layer |               |
