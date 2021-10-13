@@ -1,7 +1,10 @@
 # S3 Events
 
-* You can use the Amazon S3 Event Notifications feature to receive notifications when certain events happen in your S3 bucket. 
+* we can use S3 event notifications to receive certain notifications when creation events happen in s3 bucket
 
-* To enable notifications, you must first add a notification configuration that identifies the events you want Amazon S3 to publish and the destinations where you want Amazon S3 to send the notifications.
+* to enable the notifications, you must first add a notification configuration that identifies the events you want S3 to share the destinations where you want S3 to send the notifications.
 
-* You store this configuration in the notification subresource that is associated with a bucket.
+* You store this configuration in the notification events that is associated with a bucket.
+
+
+

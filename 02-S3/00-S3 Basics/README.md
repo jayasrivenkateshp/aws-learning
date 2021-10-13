@@ -25,9 +25,7 @@ anywhere. where on the web.
 ## Charges for S3
 
 
-⇒ upto 5 GB per on Aws cloud is a free of cost.
-
-=) EBS is a AZ wise
+⇒ upto 5 GB for 1 Aws cloud is a free of cost.
 
 * S3 bucket availability is Global wise
 
@@ -37,20 +35,16 @@ anywhere. where on the web.
 
  - create bucket and put objects in it
 
-=) public Service, umimited data /multi-tier
+=) public Service, unlimited data /multi-tier
 
      EX: Movie Audio, photos, text, Large data 
      
-=) Economical & accessed via CI/CLI
+=) Economical & accessed via GUI/CLI
 
 =) objects / buckets - Containers
 
-  - object consists of Key = name/API, value = data 
-  
-=) S3's objet store - hot file or block.
+  - object consists of Key = name.
+                       value = data 
 
 =) Great for Large Scale
 
-=) Great for offload
-
-=) Input and for output to many Aws products

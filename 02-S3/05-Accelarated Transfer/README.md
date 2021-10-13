@@ -1,6 +1,6 @@
 ## Accelerated Transfer
 
-* S3 Transfer Acceleration utilizes the CloudFront Edge Network to accelerate uploads to S3.
+* S3 Transfer Acceleration utilizes the CloudFront Edge Network to accelerate uploads to S3 from every region
 
 * Instead of directly uploading the file to S3 bucket, you will get a distinct URL that will upload the data to the nearest edge location which in turn transfer the file to S3 bucket. 
 

@@ -27,11 +27,9 @@
 
 ## block public Access
 
-> Store your data in Amazon S3 and secure it from unauthorized access with encryption features and access management tools.
+> this is a default (block public Access)
 
-> S3 is the only object storage service that allows you to block public access to all of your objects at the bucket or the account level with S3 Block Public Access.
- 
-> S3 maintains compliance programs, such as PCI-DSS, HIPAA/HITECH, FedRAMP, EU Data Protection Directive, and FISMA, to help you meet regulatory requirements. 
-  
-> AWS also supports numerous auditing capabilities to monitor access requests to your S3 resources.
+> if we want to disable this we need to manually disable it 
+
+> so that objects can be public  of our choice
 

@@ -1,14 +1,14 @@
 ## S3 Life Cycle Configuration
 
-* You can create an S3 lifecycle configuration to control when specific objects are deleted from the StorageGRID system.
+* if you are going to upload anything (files,data,movies)but you need the data for sometime only(week,month)
 
-* The simple example in this section illustrates how an S3 lifecycle configuration can control when certain objects are deleted (expired) from specific S3 buckets
+* if they are used in for some time and after that i am going to put in archival data
 
-* A lifecycle configuration is a set of rules that are applied to the objects in specific S3 buckets. Each rule specifies which objects are affected and when those objects will expire (on a specific date or after some number of days).
+* we are uploading some files for archival data 
+   EX: office files,health care files
 
-> StorageGRID supports up to 1,000 lifecycle rules in a lifecycle configuration. Each rule can include the following XML elements:
-  - Expiration: Delete an object when a specified date is reached or when a specified number of days is reached, starting from when the object was ingested.
-  - NoncurrentVersionExpiration: Delete an object when a specified number of days is reached,  starting from when the object became noncurrent.
-  - Filter (Prefix, Tag)
-  -  Status
-  -  ID
+* with these life configuration rules it will delete automatically 
+
+* S3 life cycle configuration has a file and it has some rules that are predifined to perform on objects during lifetime
+
+* so it can delete specified objects based on life cycle configuration
