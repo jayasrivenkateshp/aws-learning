@@ -14,7 +14,6 @@
 * for example 
 
     - 192 . 168 . 0 . 1 - network id and host id
-   -   |     |    |   |
     - 255 . 255 .255. 0 - subnet mask
 
 * in these example `first three` are representing the `network id` and `last one` represents       
