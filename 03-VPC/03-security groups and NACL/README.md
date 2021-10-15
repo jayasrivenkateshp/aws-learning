@@ -27,7 +27,7 @@ web server<----------- firewall ---------------> client
 | stateful | stateless
 | ------- | -------- |
 | a stateful firewall allows the return traffic automatically| a stateless checks for an allow rule for both connections
-| only one rule is required for inbound communication | both reles applies
+| only one rule is required for inbound communication | both rules applies
 | you can only allow traffic | you can allow traffic and deny traffic
 | security groups has no explicit deny | Nacls can explicitly allow and explicitly deny traffic
 
