@@ -2,7 +2,11 @@
 
 * a vpc is a logically isolated portion of the AWS cloud within a region 
 
-* Subnets are created within AZs
+* `Subnets are created within AZs`
+
+* subnets can be
+   - `private subnet`
+   - `public subnet`
 
 * Route table makes sure the data sending is in right place (we need to give destinations or targets)
 

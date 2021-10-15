@@ -11,8 +11,9 @@
 * vpcs can be different accounts or regions
 
 * `VPC peering`
- - vpc peering can be between regions
 
- * security groups are required for vpc peering
+* vpc peering can be between regions
 
- * and a route table attached to this peering
+* security groups are required for vpc peering
+
+* and a route table attached to this peering
