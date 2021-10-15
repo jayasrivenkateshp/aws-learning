@@ -16,9 +16,9 @@
 * VPC subnets have a longer subnet mask than the CIDR block by using additional bits from the host portion
 
    - subnets
-> 10.0.1.0/24
-> 10.0.2.0/24
-> 10.0.3.0/24
+* 10.0.1.0/24
+* 10.0.2.0/24
+* 10.0.3.0/24
 
 * ensure you have enough networks and hosts
 
